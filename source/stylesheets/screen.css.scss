@@ -3,6 +3,7 @@
 @import 'variables';
 @import 'icon-font';
 
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
 /*
 Copyright 2008-2013 Concur Technologies, Inc.
 
@@ -83,6 +84,7 @@ html, body {
   &>img {
     display: block;
     max-width: 100%;
+    margin: 20px auto 10px;
   }
 
   &>.search {
@@ -470,7 +472,8 @@ html, body {
   aside {
     padding-top: 1em;
     padding-bottom: 1em;
-    text-shadow: 0 1px 0 lighten($aside-notice-bg, 15%);
+    // text-shadow: 0 1px 0 lighten($aside-notice-bg, 15%);
+    text-shadow: none !important;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     background: $aside-notice-bg;
