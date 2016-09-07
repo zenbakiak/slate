@@ -11,6 +11,9 @@ includes:
   - introduction
   - authentication
   - categories
+  - venues
+  - themes
+  - entities
   - schedules
 
 search: true

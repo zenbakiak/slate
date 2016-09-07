@@ -1,7 +1,5 @@
 # Categories
 
-## Get All Categories
-
 ```shell
 curl 'http://api.incmty.com/api/v1/categories'
   -H 'Authorization: Token token="your_api_key"'
@@ -44,3 +42,10 @@ Parameter | Description
 --------- | -----------
 NONE | This endpoint needs no parameters.
 
+
+### Params Returned
+
+Name | Type | Description
+-----|------|------------
+  id | Integer | Unique Integer
+name | string | Category name
