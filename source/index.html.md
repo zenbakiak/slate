@@ -10,11 +10,12 @@ toc_footers:
 includes:
   - introduction
   - authentication
+  - activity_trends
   - categories
-  - venues
-  - themes
   - entities
   - schedules
+  - themes
+  - venues
 
 search: true
 ---
