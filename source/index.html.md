@@ -11,6 +11,7 @@ includes:
   - introduction
   - authentication
   - activity_trends
+  - activity_levels
   - categories
   - entities
   - schedules

@@ -33,7 +33,8 @@ curl 'http://api.incmty.com/api/v1/schedule?year=2016'
         "sort_order": 0
       },
       "hot": false,
-      "description": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quaerat ea debitis nesciunt magnam cupiditate repudiandae, optio laudantium commodi hic quibusdam, molestias, libero quasi pariatur quos unde neque obcaecati dicta..",
+      "mobile_description": "How to build an api with your own bare hands and don't get mad in the process.",
       "child_id_refs": 7,
       "website_url": null,
       "twitter_url": null,
@@ -59,7 +60,8 @@ curl 'http://api.incmty.com/api/v1/schedule?year=2016'
         "sort_order": 0
       },
       "hot": false,
-      "description": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quaerat ea debitis nesciunt magnam cupiditate repudiandae, optio laudantium commodi hic quibusdam, molestias, libero quasi pariatur quos unde neque obcaecati dicta..",
+      "mobile_description": "Why Donald Trump s*cks bigtime? I don't know but i think it's he s*cks, biiiig-time!",
       "child_id_refs": 7,
       "website_url": null,
       "twitter_url": null,
@@ -99,7 +101,8 @@ large_img_url | String | Event Large Image
 entity_id_refs | Array | Array of speaker ids
 category_id_refs | Integer | Category Id
 discover | Object | EventBase discover params `size` and `sort_order
-description | String | Event Description
+description | String | Event Description for the Web platform
+mobile_description | String | Event Description for the mobile application.
 child_id_refs | Integer | Field description not available
 website_url | String | Event Webpage information Url
 twitter_url | String | Twitter url
